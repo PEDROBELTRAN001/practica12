@@ -1,0 +1,7 @@
+<div>
+    <h2>lista de componenetes</h2>
+    <div *ngIf="componentes.length > 0">no hay palabras
+        <ul *ngIf="componentes.length > 0">
+            <li *ngFor="let componente of componentes">{{ componente }}</li>
+        </ul>
+</div>

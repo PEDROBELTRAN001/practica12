@@ -1,0 +1,8 @@
+<div class="">
+    <h2>Agregar Nuevo Componente</h2>
+    <div>
+        <input type="text" [(ngModel)]="nuevaComponente" placeholder="Escriba el componente ...."
+        (keyup.enter)="agregarComponentes()" />
+        <button (click)="agregarComponentes()">Agregar</button>
+    </div>
+</div>
