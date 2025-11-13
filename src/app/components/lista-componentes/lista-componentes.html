@@ -1,7 +1,8 @@
 <div>
     <h2>lista de componenetes</h2>
-    <div *ngIf="componentes.length > 0">no hay palabras
+    <div *ngIf="componentes.length > 0">
         <ul *ngIf="componentes.length > 0">
-            <li *ngFor="let componente of componentes">{{ componente }}</li>
+            <div></div>
+            <li *ngFor="let componente of componentes">{{ componente }}  <div><button>Eliminar</button> <button>Editar</button></div></li>
         </ul>
 </div>
